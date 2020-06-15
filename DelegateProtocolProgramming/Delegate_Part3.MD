@@ -137,6 +137,7 @@ class MainView: UIView {
 }
 ```
 
+# Close
 That's basically it. The paradigm allows a better organisation of your code into meaningful parts, despite the increased files needed to support it but it is much more readable and the GeneralTimer can now be tested much more easily and injected into another part of your application.
 
-The code is provided within this directory, feel free to peruse and use. I do caution though that I have not run the code and have basically written this in a text editor off the top of my head. 
+The code is provided within this directory, feel free to peruse and use. I do caution though that I have not run the code and have basically written this in a text editor off the top of my head.
