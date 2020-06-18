@@ -1,5 +1,7 @@
 # Blog
 
-[#2 Model View ViewModel Binding](./SimpleViewModelBinding)
+[#3 Run Once](./3_RunOnce)
 
-[#1 Delegate Protocol Programming with a Timer](./DelegateProtocolProgramming)
+[#2 Model View ViewModel Binding](./2_SimpleViewModelBinding)
+
+[#1 Delegate Protocol Programming with a Timer](./1_DelegateProtocolProgramming)
