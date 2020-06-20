@@ -2,10 +2,11 @@
 ##### Friday 19 June 2020
 
 ### Overview
-These are quick tips I find reading blogs, twitter, and other online forums. I'll provide links where I can but generally these will most likely not contain any code, rather guidelines one should follow when creating their Swift application.
+These are quick tips I find reading blogs, twitter, and other online forums. I'll provide links where I can but generally these will most likely not contain any code, rather guidelines one might follow when creating their Swift application.
 
 ### UI
-6. Diffable Datasource - Probably the easiest method to set up a collection view along with compoitional layouts. But diffable datasource removes a lot boiler plate code, and any changes are applied through NSDiffableDataSourceSnapshot.
+7. UITableViewCell LeadingAnchor Alignment - If you find your UILabel in a subclassed UITableViewCell does not line up with the section headers, use the contentView's .layoutMarginsGuide.leadingAnchor.
+6. Diffable Datasource - Probably the easiest method to set up a collection view along with compositional layouts. But Diffable Datasource removes a lot boiler plate code, and any changes are applied through NSDiffableDataSourceSnapshot.
 5. Rounded Corners - Another method to round corners without using the CALayer of the UIView, is to apply .clipsToBounds property to true, and .layer.roundCorners to your desired curve but apply the color to .backgroundColor not .layer.backgroundColor. This will allow the system's Dark mode to also change your view without forcing you to have to redraw the View.
 4. Main Thread - Widely known but just in case, keep UI to the main queue/thread by using DispatchQueue.main.async {}.
 3. Customising UITableViewCell - best practice is to add the subviews to the contentView and not directly onto the cell.
