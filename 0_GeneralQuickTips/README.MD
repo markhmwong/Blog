@@ -5,6 +5,7 @@
 These are quick tips I find reading blogs, twitter, and other online forums. I'll provide links where I can but generally these will most likely not contain any code, rather guidelines one might follow when creating their Swift application.
 
 ### UI
+9. UITableViewDiffableDataSource - As of 21/06/2020 (iOS 13), if you're looking into drag and droppable cells, you'll need to combine the UITableView Delegate Methods and its' properties and also Subclass UITableViewDiffableDataSource and use the appropriate methods within that class to edit, and move cells.
 8. UITableView - Subclass UITableViewController and init with .plain, .grouped, .insetgrouped for different table view styles.
 7. UITableViewCell LeadingAnchor Alignment - If you find your UILabel (in a subclassed UITableViewCell) does not align with the section headers, use the contentView's .layoutMarginsGuide.leadingAnchor to get the right alignment rather than using arbitrary CGFloats to estimate the margin distance for each and every device.
 6. Diffable Datasource - Probably the easiest method to set up a collection view along with compositional layouts. But Diffable Datasource removes a lot boiler plate code, and any changes are applied through NSDiffableDataSourceSnapshot.
